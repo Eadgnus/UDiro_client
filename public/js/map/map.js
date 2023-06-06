@@ -213,11 +213,11 @@ function createAnimatedCircle(position, density) {
     var circle = new kakao.maps.Circle({
         center: position,
         radius: 0,
-        strokeWeight: 1,
+        strokeWeight: 1.1,
         strokeColor: strokeColor,
         strokeOpacity: 1,
         fillColor: fillColor,
-        fillOpacity: 0.3
+        fillOpacity: 0.4
     });
 
     circle.setMap(map);
