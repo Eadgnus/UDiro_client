@@ -410,7 +410,7 @@ div>div>img {
 
 .intro-top {
     display: block;
-    height: 800px;
+    height: 700px;
 }
 
 .intro-top .txt-box {
@@ -611,5 +611,21 @@ li {
 }
 
 .showMore a {
+    color: white;
+}
+
+
+.list-btn {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #0080c4;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.list-btn a {
     color: white;
 }
