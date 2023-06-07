@@ -160,6 +160,8 @@ if (map_value) {
                 const MIN_TEMP = filteredData.MIN_TEMP;
 
 
+                const weather_img = document.querySelector('#weather_now')
+                const weather_img2 = document.querySelector('#weather_big')
 
                 const HUMIDITY = filteredData.HUMIDITY;
                 const PRECIPITATION = filteredData.PRECIPITATION;

@@ -260,7 +260,8 @@ let loopInterval = setInterval(() => {
 }, 3000);
 
 //  메인 셀렉창 장소 이동하기
-const search__bar = document.getElementById('search__bar')
+const search__bar = document.querySelector('#search__bar')
+console.log(search__bar)
 
 search__bar.addEventListener('change', () => {
     window.localStorage.setItem('map_value', search__bar.value)

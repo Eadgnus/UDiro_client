@@ -371,6 +371,7 @@ selectElement.addEventListener('change', function () {
 });
 
 const map_value = window.localStorage.getItem('map_value')
+console.log(map_value)
 if (map_value) {
     selectElement.value = map_value
     var selectedValue = selectElement.value;

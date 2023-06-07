@@ -18,12 +18,12 @@ if (token2) {
     mypage2.classList.remove('noshow')
     logout2.classList.remove('noshow')
 } else {
-    window.localStorage.clear('token')
+    window.localStorage.removeItem('token')
 }
 
 // 로그아웃
 logout2.addEventListener('click', () => {
-    localStorage.clear('token');
+    localStorage.removeItem('token');
     window.location.href = '/'
 })
 
