@@ -154,7 +154,7 @@ function editusuallylocal() {
             });
 
             if (response.ok) {
-                alert('자주가는 지역 수정완료');
+                alert('메모 수정완료');
             } else {
 
                 alert('오류가 발생되었습니다.')
