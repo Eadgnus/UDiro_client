@@ -192,21 +192,21 @@ function createAnimatedCircle(position, density) {
             strokeColor = "#FF0000"; // Red
             fillColor = "#FFCACA"; // Light red
             break;
-        case "약간붐빔":
-            strokeColor = "#FFA500"; // Orange
-            fillColor = "#FFE5CA"; // Light orange
+        case "약간 붐빔":
+            strokeColor = "#FFFF00"; // Orange
+            fillColor = "#FFFACD"; // Light orange
             break;
         case "보통":
-            strokeColor = "#FFFF00"; // Yellow
-            fillColor = "#FFFACD"; // Light yellow
+            strokeColor = "#75B8FA"; // Yellow
+            fillColor = "#CFE7FF"; // Light yellow
             break;
         case "여유":
             strokeColor = "#008000"; // Green
             fillColor = "#B0E0B0"; // Light green
             break;
         default:
-            strokeColor = "#75B8FA"; // Blue
-            fillColor = "#CFE7FF"; // Light blue
+            strokeColor = "#75B8FA"; // Blue FFFF00
+            fillColor = "#CFE7FF"; // Light blue FFFACD
             break;
     }
 
