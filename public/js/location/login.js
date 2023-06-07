@@ -25,6 +25,6 @@ findPw.addEventListener('click', () => {
 
 // 회원가입
 signUp.addEventListener('click', () => {
-    window.location.href = '/auth/signUp';
+    window.location.href = '/auth/terms';
 })
 
