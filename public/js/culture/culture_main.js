@@ -54,7 +54,7 @@ async function processDataAllf(data, festanum) {
     festivalsContainer.appendChild(festivalElement);
     festivalElement.addEventListener('click', function (event) {
         const festivalId = event.target.id;
-        const url = `/culture/festa/${festanum}`;
+        const url = `/culture/festa/${data.festa_NUM}`;
         window.location.href = url;
     });
 
@@ -104,7 +104,7 @@ async function processDataAll(data, placenum) {
     PlaceElement.className = 'place_image';
     placesContainer.appendChild(PlaceElement);
     PlaceElement.addEventListener('click', function (event) {
-        const url = `/culture/place/${placenum}`;
+        const url = `/culture/place/${data.place_NUM}`;
         window.location.href = url;
     });
 
